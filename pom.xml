@@ -22,12 +22,6 @@
     </properties>
 
     <dependencies>
-        <!-- apes-sdk -->
-        <dependency>
-            <groupId>com.alibaba.idst.nls</groupId>
-            <artifactId>nls-apes-sdk</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-        </dependency>
         <!-- okhttp -->
         <dependency>
             <groupId>com.squareup.okhttp3</groupId>

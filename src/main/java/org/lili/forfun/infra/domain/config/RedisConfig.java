@@ -7,12 +7,12 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @Data
 public class RedisConfig {
-    @Value("${nls.redis.host}")
+    @Value("${redis.host}")
     private String redisHost;
-    @Value("${nls.redis.port}")
+    @Value("${redis.port}")
     private Integer redisPort;
-    @Value("${nls.redis.pw}")
+    @Value("${redis.pw}")
     private String redisPwd;
-    @Value("${nls.redis.timeout:10000}")
+    @Value("${redis.timeout:10000}")
     private int timeout;
 }

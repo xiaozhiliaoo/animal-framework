@@ -8,6 +8,6 @@ import org.springframework.context.annotation.Configuration;
 @Data
 @Configuration
 public class EtcdConfig {
-    @Value("${nls.etcd.endpoints}")
+    @Value("${etcd.endpoints}")
     private String endpoints;
 }

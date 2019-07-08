@@ -11,11 +11,10 @@ import org.springframework.context.annotation.PropertySources;
     @PropertySource("classpath:test_config.properties")
 })
 @Slf4j
-public class TestNlsBaseApplication {
+public class TestAnimallBaseApplication {
     public static void main(String[] args) {
-        System.out.println(System.getProperty("user.dir"));
         try {
-            SpringApplication.run(TestNlsBaseApplication.class, args);
+            SpringApplication.run(TestAnimallBaseApplication.class, args);
             Thread.sleep(100000000);
         } catch (Throwable e) {
             log.error("",e);

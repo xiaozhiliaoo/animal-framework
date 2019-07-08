@@ -5,7 +5,7 @@ import org.lili.forfun.infra.domain.constants.Env;
 import org.lili.forfun.infra.domain.info.ServiceName;
 
 public interface DiscoveryConstants {
-    String SERVICE_PREFIX = "com.idst.";
+    String SERVICE_PREFIX = "org.lili.forfun";
 
     /*
      * 服务名配置
