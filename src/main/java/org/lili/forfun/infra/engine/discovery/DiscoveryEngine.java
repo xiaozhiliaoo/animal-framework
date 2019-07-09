@@ -67,7 +67,7 @@ public class DiscoveryEngine {
 
 
     public String register(String serviceName,String nodeIp, int port) {
-        log.info("register(svcName={}, groupkey={}, nodeip={}, port={})", serviceName, nodeIp, port);
+        log.info("register(svcName={}, nodeip={}, port={})", serviceName, nodeIp, port);
         try {
             String leaseKey = serviceName + "/" + nodeIp + "/" + port;
             ByteSequence k = ByteSequence.fromString(leaseKey);
