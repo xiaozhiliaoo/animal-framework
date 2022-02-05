@@ -81,6 +81,12 @@
             <artifactId>jetcd-core</artifactId>
             <version>0.0.2</version>
         </dependency>
+        <dependency>
+            <groupId>javax.annotation</groupId>
+            <artifactId>javax.annotation-api</artifactId>
+            <version>1.3.2</version>
+        </dependency>
+
 
         <!--==== provided ==== -->
         <!-- lombok -->
@@ -208,15 +214,4 @@
             </plugin>
         </plugins>
     </build>
-
-    <distributionManagement>
-        <repository>
-            <id>releases</id>
-            <url>XXX</url>
-        </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <url>XXX</url>
-        </snapshotRepository>
-    </distributionManagement>
 </project>
